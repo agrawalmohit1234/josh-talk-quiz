@@ -1,0 +1,47 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.reportNav {
+  height: 30px;
+  background-color: #1da1f2;
+}
+
+.reportHeading {
+  font-weight: bolder;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.main {
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  width: 87%;
+}
+
+.thank {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.reportBold {
+  font-weight: bold;
+  margin-right: 3rem;
+  text-align: end;
+}

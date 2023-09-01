@@ -1,0 +1,38 @@
+.container {
+  display: block;
+}
+
+.nav {
+  height: 35px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.navHeading {
+  font-weight: bold;
+}
+
+.middlepart {
+  display: flex;
+  height: 91.6vh;
+  margin-top: -8px;
+}
+
+.left {
+  width: 70%;
+}
+
+.middle {
+  width: 1%;
+  border-left: 1px solid black;
+}
+
+.right {
+  width: 29%;
+}

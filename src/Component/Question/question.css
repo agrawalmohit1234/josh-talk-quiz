@@ -1,0 +1,59 @@
+.question {
+  border: 1px solid black;
+  background-color: aquamarine;
+  color: black;
+  padding: 8px;
+  margin: 4px;
+  width: 100%;
+}
+
+.numbering {
+  border: 1px solid black;
+  background-color: aquamarine;
+  color: black;
+  padding: 8px;
+  margin: 4px;
+  align-items: center;
+  display: flex;
+  width: max-content;
+}
+
+.selected {
+  border: 1px solid black;
+  background-color: aliceblue;
+  color: black;
+  padding: 8px;
+  margin: 4px;
+  width: 100%;
+}
+
+.option {
+  border: 1px solid black;
+  background-color: crimson;
+  color: black;
+  padding: 8px;
+  margin: 4px;
+  width: 100%;
+}
+
+.nxtprev {
+  display: flex;
+  justify-content: space-around;
+}
+
+.npbtn {
+  margin-top: 2rem;
+  padding: 4px;
+}
+
+.submit {
+  display: flex;
+  float: right;
+  margin-top: 5rem;
+  margin-right: 2rem;
+  text-decoration: none;
+  color: black;
+  background-color: aquamarine;
+  font-weight: bold;
+  padding: 0.5rem;
+}

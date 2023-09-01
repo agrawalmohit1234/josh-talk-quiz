@@ -1,0 +1,46 @@
+.nav {
+  background-color: #1da1f2;
+}
+
+.navHeading {
+  font-weight: bolder;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.model {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modelbox {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  border: 1px solid black;
+}
+
+.submitButton {
+  background-color: white;
+  border: 1px solid black;
+  border: none;
+  padding: 0.4rem;
+  text-decoration: none;
+  color: black;
+}
+
+.title {
+  color: crimson;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.input {
+  margin-bottom: 1rem;
+}
